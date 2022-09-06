@@ -31,7 +31,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ozyGO53Tz6U7jsNkF9jCv_ecp8pY",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "_vhO3mcwE0FpjRzKMu_WDWk-hi2eWN842_IbXV-H9O0",
+      useTemplateId: "8T_iQ2eZ3DnT80ZuWtIv_X4S-KqCixkObWItMUmAjgw	",
       // 所在省份
       province: "江苏",
       // 所在城市
@@ -87,7 +87,8 @@ export const config = {
   FESTIVALS: [
     {"type": "生日", "name": "老婆", "year": "1998", "date": "09-18"},
     {"type": "节日", "name": "恋爱纪念日", "year": "2018", "date": "04-30"},
-    {"type": "节日", "name": "中秋节", "year": "2022", "date": "09-10"}
+    {"type": "节日", "name": "中秋节", "year": "2022", "date": "09-10"},
+    {"type": "生日", "name": "五一", "year": "2019", "date": "07-01"},
   ],
 
   /**
@@ -107,7 +108,7 @@ export const config = {
     // 在一起的日子
     {"keyword": "love_day", date: "2018-04-30"},
     // sakana日
-    {"keyword": "moon_festival", date: "2022-09-10"},
+    {"keyword": "marry_day", date: "2019-07-01"},
     // ...
   ],
 
