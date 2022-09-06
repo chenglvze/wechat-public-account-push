@@ -18,7 +18,7 @@ export const config = {
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
    *    id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
+   *    useTemplateId: "R9S4zWXzfM7XSR3tMY1lEl_9DcOzURbS5HqyQxDptsA	",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://wangxinleo.cn"
    *   },
@@ -27,25 +27,24 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "测试",
+      name: "小宝贝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ozyGO53Tz6U7jsNkF9jCv_ecp8pY",
+      id: "ozyGO55NiFiTaXDmNE1SNNg0ceX0",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "8T_iQ2eZ3DnT80ZuWtIv_X4S-KqCixkObWItMUmAjgw",
+      useTemplateId: "R9S4zWXzfM7XSR3tMY1lEl_9DcOzURbS5HqyQxDptsA",
       // 所在省份
       province: "江苏",
       // 所在城市
       city: "南京",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
     },
-//     {
-//       name: "自己",
-//       id: "ozyGO53Tz6U7jsNkF9jCv_ecp8pY",
-//       useTemplateId: "",
-//       province: "江苏",
-//       city: "南京",
-//       openUrl: "https://wangxinleo.cn"
-//     },
+    {
+      name: "自己",
+      id: "ozyGO53Tz6U7jsNkF9jCv_ecp8pY",
+      useTemplateId: "R9S4zWXzfM7XSR3tMY1lEl_9DcOzURbS5HqyQxDptsA",
+      province: "江苏",
+      city: "南京",
+    },
   ],
 
   /**
