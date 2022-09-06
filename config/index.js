@@ -21,7 +21,7 @@ export const config = {
    *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://wangxinleo.cn"
-   *   }, 
+   *   },
    * ]
    */
   USERS: [
@@ -38,15 +38,15 @@ export const config = {
       city: "南京",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
-    }, 
+    },
 //     {
-//       name: "自己", 
+//       name: "自己",
 //       id: "ozyGO53Tz6U7jsNkF9jCv_ecp8pY",
 //       useTemplateId: "",
 //       province: "江苏",
 //       city: "南京",
 //       openUrl: "https://wangxinleo.cn"
-//     },  
+//     },
   ],
 
   /**
@@ -63,9 +63,9 @@ export const config = {
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ozyGO53Tz6U7jsNkF9jCv_ecp8pY",
-    }, 
+    },
   ],
-    
+
   /**
    * 信息配置
    */
@@ -87,11 +87,11 @@ export const config = {
    */
   FESTIVALS: [
     {"type": "生日", "name": "老婆", "year": "1998", "date": "09-18"},
-    {"type": "节日", "name": "恋爱纪念日", "year": "2020", "date": "04-30"},
+    {"type": "节日", "name": "恋爱纪念日", "year": "2018", "date": "04-30"},
   ],
 
   /**
-   * 限制重要节日的展示条目, 需要填写数字; 
+   * 限制重要节日的展示条目, 需要填写数字;
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
@@ -100,33 +100,33 @@ export const config = {
   /** 日期相关 */
 
   /** 你现在可以随心增加你认为的所有的需要纪念的日子啦！
-    * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
-    * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }} 
-    * */
+   * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
+   * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }}
+   * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
     {"keyword": "love_day", date: "2018-04-30"},
     // sakana日
-    // {"keyword": "sakana_day", date: "1998-09-18"},
-    // ... 
+    {"keyword": "moon_festival", date: "2022-09-10"},
+    // ...
   ],
 
   /** 插槽 */
 
   /** 你可以在这里写超多的你想显示的内容了！
-    * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
-    * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }} 
-    * */
+   * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
+   * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }}
+   * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
-    ]},
+        "因为太喜欢你，所以看谁都像是情敌。",
+        "申请成为你爱里的永久居民。",
+        "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+        "遇见你，就好像捡到了100斤的运气",
+      ]},
   ],
 
   /** 每日一言 */
