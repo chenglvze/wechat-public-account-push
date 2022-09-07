@@ -87,7 +87,7 @@ export const config = {
     {"type": "生日", "name": "老婆", "year": "1998", "date": "09-18"},
     {"type": "节日", "name": "恋爱纪念日", "year": "2018", "date": "04-30"},
     {"type": "节日", "name": "中秋节", "year": "2022", "date": "09-10"},
-    {"type": "生日", "name": "五一", "year": "2019", "date": "07-01"},
+    {"type": "生日", "name": "五一", "year": "2019", "date": "07-31"},
   ],
 
   /**
@@ -107,7 +107,7 @@ export const config = {
     // 在一起的日子
     {"keyword": "love_day", date: "2018-04-30"},
     // sakana日
-    {"keyword": "marry_day", date: "2019-07-01"},
+    {"keyword": "marry_day", date: "2019-07-31"},
     // ...
   ],
 
