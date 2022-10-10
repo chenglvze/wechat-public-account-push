@@ -86,7 +86,7 @@ export const config = {
   FESTIVALS: [
     {"type": "生日", "name": "老婆", "year": "1998", "date": "10-13"},
     {"type": "节日", "name": "恋爱纪念日", "year": "2018", "date": "04-30"},
-    {"type": "节日", "name": "国庆节", "year": "2022", "date": "10-01"},
+    {"type": "节日", "name": "圣诞节", "year": "2022", "date": "12-25"},
     {"type": "生日", "name": "五一", "year": "2019", "date": "07-31"},
   ],
 
