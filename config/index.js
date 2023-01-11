@@ -25,26 +25,26 @@ export const config = {
    * ]
    */
   USERS: [
-//     {
-//       // 想要发送的人的名字
-//       name: "小宝贝",
-//       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-//       id: "ozyGO55NiFiTaXDmNE1SNNg0ceX0",
-//       // 你想对他发送的模板消息的模板ID
-//       useTemplateId: "R9S4zWXzfM7XSR3tMY1lEl_9DcOzURbS5HqyQxDptsA",
-//       // 所在省份
-//       province: "江苏",
-//       // 所在城市
-//       city: "南京",
-//       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-//     },
+    {
+      // 想要发送的人的名字
+      name: "小宝贝",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "ozyGO55NiFiTaXDmNE1SNNg0ceX0",
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: "R9S4zWXzfM7XSR3tMY1lEl_9DcOzURbS5HqyQxDptsA",
+      // 所在省份
+      province: "江苏",
+      // 所在城市
+      city: "南京",
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+    },
     {
       name: "自己",
       id: "ozyGO53Tz6U7jsNkF9jCv_ecp8pY",
       useTemplateId: "R9S4zWXzfM7XSR3tMY1lEl_9DcOzURbS5HqyQxDptsA",
       province: "江苏",
       city: "南京",
-    }
+    },
   ],
 
   /**
@@ -86,7 +86,7 @@ export const config = {
   FESTIVALS: [
     // {"type": "生日", "name": "老婆", "year": "1998", "date": "10-12"},
     {"type": "节日", "name": "恋爱纪念日", "year": "2018", "date": "04-30"},
-    {"type": "节日", "name": "除夕", "year": "2023", "date": "01-12"},
+    {"type": "节日", "name": "除夕", "year": "2023", "date": "01-21"},
     {"type": "生日", "name": "五一", "year": "2019", "date": "07-31"},
   ],
 
